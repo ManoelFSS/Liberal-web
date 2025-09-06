@@ -1,5 +1,5 @@
 import { Container } from './styles'
-import Image from '../../assets/images/Image.png'
+import Image from '../../assets/images/image.png'
 
 const Logo = () => {
     return (
