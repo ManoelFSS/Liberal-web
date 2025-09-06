@@ -34,7 +34,7 @@ export const Container = styled.div`
         opacity: 0.9;      /* deixa mais translúcido */
         border-radius: 50%;
         border: 1px solid rgba(255, 255, 255, 1);
-        z-index: 11;
+        z-index: 1;
     }
 
     &::before {
@@ -52,7 +52,7 @@ export const Container = styled.div`
 
         border-radius: 50%;
         border: 1.5px solid rgba(236, 235, 235, 1);
-        z-index: 11;
+        z-index: 1;
 
         /* Reflexos de luz */
         box-shadow:
@@ -95,7 +95,7 @@ export const Container = styled.div`
         height: 100px;
         position: absolute;
         left: 0px;  
-        z-index: 12;
+        z-index: 2;
 
         @media (max-width: 900px) {
             width: 190px;
@@ -119,7 +119,7 @@ export const Container = styled.div`
             position: relative;
             left: 22px;
             top: 20px;
-            z-index: 12;
+            z-index: 2;
 
             @media (max-width: 900px) {
                 font-size: 1.5rem;
@@ -141,7 +141,7 @@ export const Container = styled.div`
             position: relative;
             left: 20px;
             top: 13px;
-            z-index: 12;
+            z-index: 2;
 
             @media (max-width: 900px) {
                 font-size: 2.7rem;
@@ -163,7 +163,7 @@ export const Container = styled.div`
             position: relative;
             left: 47px;
             bottom: -10px;
-            z-index: 12;
+            z-index: 2;
 
             @media (max-width: 900px) {
                 font-size: 1.9rem;

@@ -6,6 +6,7 @@ export const Container = styled.header`
     align-items: center;
     position: relative;
     width: 100%;
+    z-index: 99;
 
     @media (max-width: 650px) {
         position: absolute;
@@ -21,7 +22,7 @@ export const Container = styled.header`
         left: 15px;
         width: 40px;
         height: 40px;
-        z-index: 11;
+        z-index: 100;
 
         @media (max-width: 650px) {
             display: flex;

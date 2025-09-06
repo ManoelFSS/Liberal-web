@@ -7,6 +7,7 @@ export const Container = styled.nav`
     box-shadow: 5px 5px 10px 0.5px #00000050;
     overflow: hidden;
     // border: solid 1px #f50101ff;
+    z-index: 99;
 
 
     @media (max-width: 650px) {
@@ -16,6 +17,7 @@ export const Container = styled.nav`
         height: 65vh;
         transition: all 0.3s ease-in-out;
         box-shadow:${props => props.closeMenu ? '5px 5px 10px 0.5px #00000050' : 'none'};
+        z-index: 99;
     }
 
     ul {

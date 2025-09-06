@@ -51,11 +51,11 @@ const Menu = ({ closeMenu }) => {
 
     return (
         <Container
-        closeMenu={closeMenu}
-        width={`${indicator.width}px`}
-        height={`${indicator.height}px`}
-        position={`${indicator.left}px`}
-        positionTop={`${indicator.top}px`}
+            closeMenu={closeMenu}
+            width={`${indicator.width}px`}
+            height={`${indicator.height}px`}
+            position={`${indicator.left}px`}
+            positionTop={`${indicator.top}px`}
         >
         <ul ref={ulRef}>
             {menuItems.map((item, index) => (
