@@ -14,6 +14,7 @@ export const Button = styled.button`
     cursor: pointer;
     transition: all 0.3s ease;
     color: #005875;
+    
 
     &:hover .icon,  &:hover .play,  &:hover .pause  {
         color: #0096c7;

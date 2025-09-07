@@ -10,7 +10,7 @@ export const Container = styled.div`
     position: relative;
     border-radius: 50%;
     border: 1px solid #ffffff;
-    box-shadow:inset 8px 5px 16px #00000050, -5px -6px 40px 2px #ffffffff, 
+    box-shadow:inset 8px 5px 16px #00000032, -5px -6px 40px 2px #ffffffff, 
     0px 0px 8px 20px #ffffffe5, 10px 4px 20px 20px  #0000005f;
     transform:scale(0.9);
 
