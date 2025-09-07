@@ -41,16 +41,23 @@ export const Container = styled.nav`
             z-index: 2;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
-            color: #555454ff;
+            color: #000000ff;
             fnt-size: 1.1rem;
+            font-weight: 600;
             outline: none;
             user-select: none;
+
+            
 
             @media (max-width: 650px) {
                 width: 50%;
                 font-size: 1.3rem;
                 border-bottom: solid 1px #c4c4c4;
             }
+        }
+
+        li:hover:not(.hover-active) {
+            color: #005875;
         }
 
         .hover-active {

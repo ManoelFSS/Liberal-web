@@ -20,21 +20,18 @@ export const Container = styled.div`
 
         .play {
             font-size: 2rem;
-            color: #005875;
             margin-left: 8px;
             margin-top: 5px;
         }
 
         .pause {
             font-size: 2rem;
-            color: #005875;
             margin-left: 3px;
             margin-top: 5px;
         }
 
         .icon {
             font-size: 1.5rem;
-            color: #005875;
         }
 
         .btn-share{
