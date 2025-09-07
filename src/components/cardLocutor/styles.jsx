@@ -14,6 +14,11 @@ export const Container = styled.div`
         top: -10px;
     }
 
+    @media (min-width: 460px) and (max-width:480px) {
+        right: 0px;
+        top: 20px;
+    }
+
     .locutor {
         display: flex;
         width: 310px;
