@@ -6,18 +6,17 @@ export const Container = styled.div`
 
     @media (max-width: 1000px) {
         right: 0px;
-        top: 20px;
     }
 
-    @media (max-width: 700px) {
-        right: 0px;
-        top: -10px;
-    }
+    // @media (min-width: 700px) and (max-width: 750px) {
+    //     right: 0px;
+    //     top: -10px;
+    // }
 
-    @media (min-width: 460px) and (max-width:480px) {
-        right: 0px;
-        top: 20px;
-    }
+    // @media (min-width: 460px) and (max-width:480px) {
+    //     right: 0px;
+    //     top: 20px;
+    // }
 
     .locutor {
         display: flex;

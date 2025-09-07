@@ -5,7 +5,6 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 340px;
     min-width: 350px;
     gap: 45px;
     // border: solid 4px #ef280eff;
@@ -17,6 +16,8 @@ export const Container = styled.div`
         gap: 40px;
         position: relative;
         width: 240px;
+        //  border: solid 4px #ef280eff;
+
 
         .play {
             font-size: 2rem;

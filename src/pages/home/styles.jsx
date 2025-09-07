@@ -3,18 +3,16 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     position: relative;
     // border: solid 4px #ef280eff;
-    padding: 21px 0 10px;
-
+    padding: 30px 0 20px;
 
 
     @media (max-width: 1000px) {
         flex-direction: column-reverse;
-        gap: 50px;
+        gap: 60px;
     }
 
     @media (max-width: 500px) {
