@@ -5,13 +5,14 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.14);
+    background-color: rgba(255, 255, 255, 0.01);
     padding: 96px;
     position: relative;
     border-radius: 50%;
     border: 1px solid #ffffff;
     box-shadow:inset 8px 5px 16px #00000050, -5px -6px 40px 2px #ffffffff, 
     0px 0px 8px 20px #ffffffe5, 10px 4px 20px 20px  #0000005f;
+    transform:scale(0.9);
 
     &::after {
         content: '';

@@ -9,3 +9,27 @@
   font-family: 'Inter', sans-serif;
   outline: none;
 }
+
+body {
+     /* largura da barra */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* trilho (fundo) */
+    &::-webkit-scrollbar-track {
+        background: #005875;
+        border-radius: 6px;
+    }
+
+    /* parte que desliza */
+    &::-webkit-scrollbar-thumb {
+        background: #038bc1;
+        border-radius: 6px;
+    }
+
+    /* cor quando passa o mouse */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #003f57;
+    }
+}

@@ -18,7 +18,7 @@ export const Conteiner = styled.footer`
         
 
         .icon {
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             font-weight: 700;
             color: #ffffffff;
             cursor: pointer;
