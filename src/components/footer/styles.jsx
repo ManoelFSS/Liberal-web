@@ -10,6 +10,11 @@ export const Conteiner = styled.footer`
         height: 6vh;
         background-color: #005875;
         gap: 30px;
+
+        @media (orientation: landscape) {
+            /* estilos só quando a tela estiver em modo paisagem */
+            height: 12vh;
+        }
         
 
         .icon {
@@ -33,6 +38,11 @@ export const Conteiner = styled.footer`
         justify-content: center;
         align-items: center;
         height: 3vh;
+
+        @media (orientation: landscape) {
+            /* estilos só quando a tela estiver em modo paisagem */
+            height: 6vh;
+        }
     }
     
 `

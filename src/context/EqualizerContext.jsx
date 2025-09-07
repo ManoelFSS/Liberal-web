@@ -5,7 +5,7 @@ export const useEqualizer = () => useContext(EqualizerContext);
 
 export const EqualizerProvider = ({ children }) => {
     
-    const blocksPerColumn = 11;
+    const blocksPerColumn = 10;
     
 
     const containerRef = useRef(null);
